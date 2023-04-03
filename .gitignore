@@ -1,0 +1,6 @@
+/bin/
+/lib/
+/imagenes/
+/.settings/
+.project
+.classpath
