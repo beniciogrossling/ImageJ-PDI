@@ -53,6 +53,7 @@ public class TestMMALCE {
 		IE.show();
 	}
 	
+	
 	private static ImageProcessor MMALCE(ImageProcessor ip, ImageProcessor sW, ImageProcessor sB) {
 		int M = ip.getWidth();
 		int N = ip.getHeight();

@@ -7,7 +7,7 @@ public class Call_Histograma {
 
 	public static void main(String[] args) {
 		
-		ImagePlus im = new ImagePlus("C:\\Users\\Benicio Grossling\\Documents\\Proyectos\\Proyectos java\\ImageJ-PDI\\imagenes\\einstein-low-contrast.tif");
+		ImagePlus im = new ImagePlus("C:\\Users\\Benicio Grossling\\Documents\\Proyectos\\Proyectos java\\ImageJ-PDI\\imagenes\\1.jpg");
 		
 		Compute_Histogram ch = new Compute_Histogram();
 		Histograma_Acumulativo ch2 = new Histograma_Acumulativo();
