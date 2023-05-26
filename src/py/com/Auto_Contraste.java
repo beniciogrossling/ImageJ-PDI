@@ -8,7 +8,7 @@ import ij.process.ImageProcessor;
 public class Auto_Contraste {
 
 	public static void main(String[] args) {
-		String ruta = "C:\\Users\\Benicio Grossling\\OneDrive\\Escritorio\\grises.jpg";
+		String ruta = ("C:\\Users\\Benicio Grossling\\Documents\\Proyectos\\Proyectos java\\ImageJ-PDI\\imagenes\\einstein-low-contrast.tif");
 		ImagePlus im = IJ.openImage(ruta); 				// carga la imagen
 		ImagePlus im2 = im.duplicate();					// duplicamos la imagen
 		ImageConverter ic = new ImageConverter(im2);
@@ -60,6 +60,6 @@ public class Auto_Contraste {
 		IJ.save(im2, "C:\\Users\\Benicio Grossling\\OneDrive\\Escritorio\\grises-Brode-Blanco.jpg");
 		}
 
-	}
-
 }
+
+
